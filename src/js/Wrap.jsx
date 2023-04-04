@@ -12,7 +12,7 @@ export default function Wrap() {
 
         <ul classclassName="task-list">
             <ListItem className="task" id="pattern1" text="Yuor task..." disabled="disabled"/>
-            <ListItem className="task task_check" id="pattern2" text="Task completed" disabled="disabled"/>
+            <ListItem className="task task_check" id="pattern2" text="Task completed" disabled="disabled" checked="checked"/>
         </ul>
         <Button text="Clear list" className="button button-clear" handler={() => alert(`Clear`)} />
     </main>
